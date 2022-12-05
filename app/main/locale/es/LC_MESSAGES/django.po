@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-18 11:34-0400\n"
+"PO-Revision-Date: 2019-12-11 20:09-0428\n"
+"Last-Translator: b'  <admin@fincasoft.com.ve>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.3\n"
+
+#: apps/main/models/glosary.py:21 apps/main/models/glosary.py:28
+msgid "Term"
+msgstr "Termino"
+
+#: apps/main/models/glosary.py:22
+msgid "Description"
+msgstr "Descripción"
+
+#: apps/main/models/glosary.py:29
+msgid "Glosary"
+msgstr "Glosario"
+
+#: apps/main/models/main.py:11 apps/main/views/sequence.py:22
+msgid "Name"
+msgstr "Nombre"
+
+#: apps/main/models/main.py:17
+msgid "Sex"
+msgstr "Sexo"
+
+#: apps/main/models/sequence.py:11
+msgid "name"
+msgstr "nombre"
+
+#: apps/main/models/sequence.py:12 apps/main/views/sequence.py:23
+msgid "Prefix"
+msgstr "Prefijo"
+
+#: apps/main/models/sequence.py:13
+msgid "padding"
+msgstr "relleno"
+
+#: apps/main/models/sequence.py:14
+msgid "initial"
+msgstr "inicial"
+
+#: apps/main/models/sequence.py:15
+msgid "increment"
+msgstr "incremento"
+
+#: apps/main/models/sequence.py:16
+msgid "reset"
+msgstr "reiniciar"
+
+#: apps/main/models/sequence.py:17
+msgid "Last"
+msgstr "Ultimo"
+
+#: apps/main/models/sequence.py:18 apps/main/views/sequence.py:28
+msgid "Next"
+msgstr "Siguiente"
+
+#: apps/main/models/sequence.py:21
+msgid "sequence"
+msgstr "sequencia"
+
+#: apps/main/models/sequence.py:22
+msgid "sequences"
+msgstr "sequencias"
+
+#: apps/main/templates/main/delete_modal.html:20
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: apps/main/templates/main/delete_modal.html:22
+msgid "Accept"
+msgstr "Aceptar"
+
+#: apps/main/templates/main/detail_modal.html:18
+msgid "Close"
+msgstr "Cerrar"
+
+#: apps/main/templates/main/form.html:56 apps/main/templates/main/form.html:80
+msgid "Save"
+msgstr "Guardar"
+
+#: apps/main/templates/main/list.html:22
+msgid "Create"
+msgstr "Crear"
+
+#: apps/main/templates/main/list.html:31
+msgid "Actions"
+msgstr "Acciones"
+
+#: apps/main/templates/main/main.html:193
+msgid "Language"
+msgstr "Idioma"
+
+#: apps/main/templates/main/main.html:215
+msgid "Profile"
+msgstr "Perfil"
+
+#: apps/main/templates/main/main.html:218
+msgid "Logout"
+msgstr ""
+
+#: apps/main/templates/main/main.html:255
+msgid "Version"
+msgstr "Versión"
+
+#: apps/main/templates/main/main.html:257
+msgid "All rights reserved."
+msgstr "Todos los derechos reservados"
+
+#: apps/main/templates/main/main.html:316
+msgid ""
+"Your account does not have the necessary privileges to access this section. "
+"To continue, log in with an account that has the necessary privileges."
+msgstr ""
+
+#: apps/main/templates/main/main.html:321
+msgid "Please login to visit this page."
+msgstr "Por favor ingrese para poder visitar esta página"
+
+#: apps/main/templates/main/menu.html:32
+msgid "Dashboard"
+msgstr "Tablero"
+
+#: apps/main/templates/main/menu.html:38
+msgid "Farm Dashboard"
+msgstr "Tablero de la Finca"
+
+#: apps/main/templates/main/menu.html:44
+msgid "Flock Dashboard"
+msgstr "Tablero del Rebaño"
+
+#: apps/main/templates/main/menu.html:50
+msgid "Animal Dashboard"
+msgstr "Tablero de Animales"
+
+#: apps/main/views/main.py:48
+msgid "Detail"
+msgstr "Detalle"
+
+#: apps/main/views/main.py:68 apps/main/views/main.py:78
+msgid "Add"
+msgstr "Agregar"
+
+#: apps/main/views/main.py:90
+#, python-format
+msgid "The %(object)s, was succesfully created"
+msgstr ""
+
+#: apps/main/views/main.py:115
+msgid "Update"
+msgstr "Actualizar"
+
+#: apps/main/views/main.py:127
+#, python-format
+msgid "The %(object)s, was succesfully updated"
+msgstr ""
+
+#: apps/main/views/main.py:143
+#, python-format
+msgid "Delete %(obj_name)s"
+msgstr "Eliminar %(obj_name)s"
+
+#: apps/main/views/sequence.py:24
+msgid "Padding"
+msgstr "Relleno"
+
+#: apps/main/views/sequence.py:25
+msgid "Initial"
+msgstr "Inicial"
+
+#: apps/main/views/sequence.py:26
+msgid "Increment"
+msgstr "Incremento"
+
+#: apps/main/views/sequence.py:27
+msgid "Reset"
+msgstr "Reiniciar"

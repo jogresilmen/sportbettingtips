@@ -1,0 +1,81 @@
+{% load static %}
+<!-- Main Sidebar Container -->
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <!-- Brand Logo -->
+  <a href="#" class="brand-link">
+    <img src="{% get_media_prefix %}icon/favicon_white.png" alt="{{ settings.PROJECT_NAME }} Logo"
+      class="brand-image img-circle elevation-3" style="opacity: .8">
+    <span class="brand-text logo-prefix">{{ settings.PREFIX }}</span><span
+      class="brand-text logo-sufix">{{ settings.SUFIX }}</span>
+  </a>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <!-- Sidebar user (optional) -->
+    <!-- <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            {% if request.user.is_authenticated %}
+                <div class="image">
+                    <a style="color:#fff;" href="{% url 'usercustom:profile' %}" class="d-block"><img src="{{ request.user.avatar.url }}" id="user_avatar" class="img-circle" alt="{{ request.user }}"></a>
+                </div>
+                <div class="info">
+                    <a href="{% url 'usercustom:profile' %}" class="d-block">{{ user }}</a>
+                </div>
+            {% endif %}
+        </div> -->
+    <!-- Sidebar Menu -->
+    <nav class="mt-2">
+      <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        <!-- Add icons to the links using the .nav-icon class
+              with font-awesome or any other icon font library -->
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-file-upload"></i>
+            <p>{{ _("Production") }}</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-clipboard-list"></i>
+            <p>{{ _("Products") }}</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-money-check-alt"></i>
+            <p>{{ _("Budgets") }}</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-file-upload"></i>
+            <p>{{ _("Budgets") }}</p>
+          </a>
+        </li>
+        {% if user.is_superuser %}
+        {% include "rosetta/menu.html" %}
+        {% include "config/menu.html" %}
+        {% endif %}
+        <!-- <li class="nav-header">LABELS</li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon far fa-circle text-danger"></i>
+            <p class="text">Important</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon far fa-circle text-warning"></i>
+            <p>Warning</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon far fa-circle text-info"></i>
+            <p>Informational</p>
+          </a>
+        </li> -->
+      </ul>
+    </nav>
+    <!-- /.sidebar-menu -->
+  </div>
+  <!-- /.sidebar -->
+</aside>

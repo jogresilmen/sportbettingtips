@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-18 11:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: apps/main/models/glosary.py:21 apps/main/models/glosary.py:28
+msgid "Term"
+msgstr ""
+
+#: apps/main/models/glosary.py:22
+msgid "Description"
+msgstr ""
+
+#: apps/main/models/glosary.py:29
+msgid "Glosary"
+msgstr ""
+
+#: apps/main/models/main.py:11 apps/main/views/sequence.py:22
+msgid "Name"
+msgstr ""
+
+#: apps/main/models/main.py:17
+msgid "Sex"
+msgstr ""
+
+#: apps/main/models/sequence.py:11
+msgid "name"
+msgstr ""
+
+#: apps/main/models/sequence.py:12 apps/main/views/sequence.py:23
+msgid "Prefix"
+msgstr ""
+
+#: apps/main/models/sequence.py:13
+msgid "padding"
+msgstr ""
+
+#: apps/main/models/sequence.py:14
+msgid "initial"
+msgstr ""
+
+#: apps/main/models/sequence.py:15
+msgid "increment"
+msgstr ""
+
+#: apps/main/models/sequence.py:16
+msgid "reset"
+msgstr ""
+
+#: apps/main/models/sequence.py:17
+msgid "Last"
+msgstr ""
+
+#: apps/main/models/sequence.py:18 apps/main/views/sequence.py:28
+msgid "Next"
+msgstr ""
+
+#: apps/main/models/sequence.py:21
+msgid "sequence"
+msgstr ""
+
+#: apps/main/models/sequence.py:22
+msgid "sequences"
+msgstr ""
+
+#: apps/main/templates/main/delete_modal.html:20
+msgid "Cancel"
+msgstr ""
+
+#: apps/main/templates/main/delete_modal.html:22
+msgid "Accept"
+msgstr ""
+
+#: apps/main/templates/main/detail_modal.html:18
+msgid "Close"
+msgstr ""
+
+#: apps/main/templates/main/form.html:56 apps/main/templates/main/form.html:80
+msgid "Save"
+msgstr ""
+
+#: apps/main/templates/main/list.html:22
+msgid "Create"
+msgstr ""
+
+#: apps/main/templates/main/list.html:31
+msgid "Actions"
+msgstr ""
+
+#: apps/main/templates/main/main.html:193
+msgid "Language"
+msgstr ""
+
+#: apps/main/templates/main/main.html:215
+msgid "Profile"
+msgstr ""
+
+#: apps/main/templates/main/main.html:218
+msgid "Logout"
+msgstr ""
+
+#: apps/main/templates/main/main.html:255
+msgid "Version"
+msgstr ""
+
+#: apps/main/templates/main/main.html:257
+msgid "All rights reserved."
+msgstr ""
+
+#: apps/main/templates/main/main.html:316
+msgid ""
+"Your account does not have the necessary privileges to access this section. "
+"To continue, log in with an account that has the necessary privileges."
+msgstr ""
+
+#: apps/main/templates/main/main.html:321
+msgid "Please login to visit this page."
+msgstr ""
+
+#: apps/main/templates/main/menu.html:32
+msgid "Dashboard"
+msgstr ""
+
+#: apps/main/templates/main/menu.html:38
+msgid "Farm Dashboard"
+msgstr ""
+
+#: apps/main/templates/main/menu.html:44
+msgid "Flock Dashboard"
+msgstr ""
+
+#: apps/main/templates/main/menu.html:50
+msgid "Animal Dashboard"
+msgstr ""
+
+#: apps/main/views/main.py:48
+msgid "Detail"
+msgstr ""
+
+#: apps/main/views/main.py:68 apps/main/views/main.py:78
+msgid "Add"
+msgstr ""
+
+#: apps/main/views/main.py:90
+#, python-format
+msgid "The %(object)s, was succesfully created"
+msgstr ""
+
+#: apps/main/views/main.py:115
+msgid "Update"
+msgstr ""
+
+#: apps/main/views/main.py:127
+#, python-format
+msgid "The %(object)s, was succesfully updated"
+msgstr ""
+
+#: apps/main/views/main.py:143
+#, python-format
+msgid "Delete %(obj_name)s"
+msgstr ""
+
+#: apps/main/views/sequence.py:24
+msgid "Padding"
+msgstr ""
+
+#: apps/main/views/sequence.py:25
+msgid "Initial"
+msgstr ""
+
+#: apps/main/views/sequence.py:26
+msgid "Increment"
+msgstr ""
+
+#: apps/main/views/sequence.py:27
+msgid "Reset"
+msgstr ""
